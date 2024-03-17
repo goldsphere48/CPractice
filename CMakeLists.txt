@@ -9,4 +9,9 @@ add_executable(DArray
 	src/memory/stack_allocator.c
 	src/memory/two_way_stack_allocator.c
 	src/memory/pool_allocator.c
+	src/memory/freelist.c
+	src/memory/dynamic_allocator.c
+	src/memory/memory_system.c
 )
+
+target_include_directories(DArray PRIVATE src)

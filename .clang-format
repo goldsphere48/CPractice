@@ -1,0 +1,9 @@
+# Используем табы вместо пробелов
+UseTab: Always
+# Фигурные скобки на новой строке для классов, функций и прочего
+BreakBeforeBraces: Allman
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 0
+BinPackParameters: true
+PointerAlignment: Left
